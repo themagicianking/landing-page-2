@@ -1,0 +1,40 @@
+body {
+    background-color: #1F2937;
+}
+
+.logo, .link, .text, .intro-title, .info, .quote, .author, .call, .copyright {
+    font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;
+} 
+
+.logo {
+    font-size: 24px;
+    font-family: 'Hero New', sans-serif;
+}
+
+.link, .text {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    margin: 100px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}

@@ -1,5 +1,32 @@
 body {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.header, .box-one {
+    display: flex;
+    margin: 50px 200px 50px 200px;
+}
+
+.box-two, .box-three, .box-four, .footer {
+    padding: 50px 200px 50px 200px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link {
+    margin: 0px 25px 0px 25px;
 }
 
 .logo, .link, .text, .intro-title, .info, .quote, .author, .call, .copyright {
@@ -16,25 +43,30 @@ body {
     font-size: 18px;
 }
 
-.header {
-    display: flex;
-    margin: 100px;
-}
-
 .intro-title {
     font-size: 48px;
     font-weight: 800;
 }
 
+.info, .quote, .author {
+    color:#1F2937;
+}
+
 .info {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+}
+
+.box-two, .box-four {
+    background-color: #F9FAF8;
+}
+
+.box-three {
+    background-color: #E5E7EB;   
 }

@@ -6,15 +6,6 @@ body {
     align-items: stretch;
 }
 
-.header, .box-one {
-    display: flex;
-    margin: 50px 200px 50px 200px;
-}
-
-.box-two, .box-three, .box-four, .footer {
-    padding: 50px 200px 50px 200px;
-}
-
 .header {
     justify-content: space-between;
 }
@@ -25,11 +16,98 @@ body {
     justify-content: space-between;
 }
 
+
 .link {
     margin: 0px 25px 0px 25px;
 }
 
-.logo, .link, .text, .intro-title, .info, .quote, .author, .call, .copyright {
+.header, .box-one {
+    display: flex;
+    margin: 50px 200px 50px 200px;
+}
+
+.box-two, .box-three, .box-four, .footer {
+    padding: 50px 200px 50px 200px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px 2px 20px;
+    background-color: #3882F6;
+    border:solid 2px #E5E7EB;
+    border-radius: 5%;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+}
+
+
+.sub-box-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.intro-title, .text {
+    margin: 0px 0px 30px 0px;
+}
+
+.box-two, .box-four {
+    background-color: #F9FAF8;
+}
+
+.box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-three {
+    background-color: #E5E7EB;
+}
+
+.graphic-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.graphic {
+    margin: 25px;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    border: solid #3882F6;
+    border-radius: 10%;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 150px 50px 150px;
+    border-radius: 2%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    margin: 10px;
+}
+
+button, .logo, .link, .text, .intro-title, .info, .quote, .author, .call, .copyright {
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
 } 
@@ -39,8 +117,12 @@ body {
     font-family: 'Hero New', sans-serif;
 }
 
-.link, .text {
+p, .link, .text {
     font-size: 18px;
+}
+
+p {
+    font-family: 'Hero New', sans-serif;
 }
 
 .intro-title {
@@ -48,7 +130,7 @@ body {
     font-weight: 800;
 }
 
-.info, .quote, .author {
+p, .info, .quote, .author {
     color:#1F2937;
 }
 
@@ -63,10 +145,7 @@ body {
     font-style: italic;
 }
 
-.box-two, .box-four {
-    background-color: #F9FAF8;
-}
-
-.box-three {
-    background-color: #E5E7EB;   
+.call {
+    font-size: 24px;
+    font-weight: 800px;
 }
